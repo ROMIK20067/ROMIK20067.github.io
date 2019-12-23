@@ -1,0 +1,85 @@
+body {
+	background-color:#494949;
+}
+
+header, footer {
+	background-color:black;
+}
+
+#headerSlogan {
+	float: right;
+}
+
+#award {
+	position: absolute;
+	top: 3%;
+	left: 43%;
+	
+}
+
+
+
+footer {
+	text-align: center;
+	color: #b5a789;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#drinks, #main, #sidebar {
+	background-color: #a4a4a4;
+	margin: 10px;
+	padding: 5px;
+	display: table-cell;
+	vertical-align: top;
+}
+
+#drinks, #sidebar {
+	width: 21%;
+	text-align: center;
+}
+
+#main {
+	width: 50%;
+	text-align: center;
+}
+
+.beanheading {
+	line-height: 32px;
+}
+
+#table {
+	display: table;
+	border-spacing: 10px;
+}
+
+#row {
+	display: table-row;
+}
+
+nav {
+	background-color: black;
+	padding-left: 0;
+	margin: 0 10px;
+}
+
+nav ul {
+	list-style-type: none;
+	padding-left: 0;
+	margin-bottom: 10px;
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 8px 5px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #ab6a68;
+	font-weight: bold;
+}
+
+.selected {
+	background-color: black;
+}
